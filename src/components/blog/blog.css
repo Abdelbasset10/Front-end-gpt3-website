@@ -1,0 +1,110 @@
+.blog-section{
+    padding: 4rem ;
+}
+.blog-content h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 58px;
+   line-height: 70px;
+  letter-spacing: -0.04em;
+}
+.blog-content-articles{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.blog-content-article-left-side{
+    flex: 1;
+    margin-right: 2rem;
+}
+.blog-content-article-left-side img{
+    width: 100%;
+    height: 100%;
+}
+
+.blog-content-article-right-side{
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+.blog-content-article-right-side img{
+    width: 100%;
+    height: 100%;
+}
+
+.article-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-footer);
+    
+}
+.article-content .article-content-text .h4-position{
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+}
+.article-content-text{
+    position: relative;
+    padding: 2rem 1rem;
+    color: white;
+    height: 100%;
+}
+.article-content-text h4{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 11.649px;
+    line-height: 35px;
+}
+.article-content-text h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 1rem;
+    letter-spacing: -0.04em;
+}
+
+
+
+
+@media screen and (max-width: 990px){
+    .blog-content-articles{
+        flex-direction: column-reverse;
+    }
+    .blog-content-article-left-side{
+        margin-top: 2rem;
+        width: 48%;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+    .blog-content-article-right-side{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blog-content-article-left-side{
+        width: 100%;
+    }
+    .blog-content h1{
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .blog-content h1{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .blog-content-article-right-side .article-content-text h1{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .blog-content-article-right-side .article-content-text h4{
+        font-weight: 700;
+        font-size: 10px;
+    }
+}

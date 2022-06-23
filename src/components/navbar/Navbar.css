@@ -1,0 +1,97 @@
+nav{
+    padding: 2rem 6rem;
+    font-family: var( --font-family);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-div img{
+    width: 62.56px;
+    height: 16.02px;
+}
+.nav-links{
+    display: flex;
+    justify-content: flex-start;
+}
+.nav-links li{
+    margin: 0 20px;
+    list-style: none;
+}
+.nav-links li a {
+    text-decoration: none;
+    color:white;
+}
+.sign-div{
+    display: flex;
+}
+.sign-div button{
+    background: #FF4820;
+    padding: 0.5rem 1rem;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sign-div h3{
+    color: white;
+    margin-right: 5px;
+}
+.menu-div{
+    margin-left: 1rem;
+
+    display: none;
+    position: relative;
+}
+.icon{
+    font-size: 30px;
+    color:white;
+    cursor: pointer;
+}
+.links-sign-mobile{
+    background: var(--color-footer);
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+    position: absolute;
+    top:50px;
+    right: 0;
+    min-width: 210px;
+    text-align: end;
+}
+.nav-links-mobile li{
+    list-style: none;
+    margin: 10px 0;
+}
+.nav-links-mobile a{
+    text-decoration: none;
+    color:white;
+}
+.sign-div-mobile button{
+    background: #FF4820;
+    padding: 0.5rem 1rem;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sign-div-mobile h3{
+    color: white;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 945px) {
+    nav{
+        padding: 1rem 2rem;
+    }
+    .nav-links, .sign-div{
+        display: none;
+    }
+    .menu-div{
+        display: block;
+    }
+    
+
+    
+   
+}
