@@ -3,7 +3,7 @@ import './hero.css'
 
 const Hero = () => {
   return (
-    <div className='Hero-Section'>
+    <div className='Hero-Section' id='hero'>
       <div className='Hero-content'>
         <div className='Left-side'>
           <h1 className='gradient__text' > Let's Build Something amazing with GPT-3 OpenAi </h1>

@@ -3,7 +3,7 @@ import './possibility.css'
 
 const Possibility = () => {
   return (
-    <div className='possibility-section'>
+    <div className='possibility-section' id='possibility'>
         <div className='possibility-content'>
             <div className='possibility-content-left-side'>
                 <img src="/images/possibility.png" alt="" />

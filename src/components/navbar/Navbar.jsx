@@ -16,11 +16,11 @@ const Navbar = () => {
        </div>
        
        <ul className='nav-links'>
-           <li> <a href="#">Home</a> </li>
-           <li> <a href="#">What is GPT3?</a> </li>
-           <li> <a href="#">Open Ai</a> </li>
-           <li> <a href="#">Case Studies</a> </li>
-           <li> <a href="#">Library</a> </li>
+       <li> <a href="#hero">Home</a> </li>
+           <li> <a href="#gpt">What is GPT3?</a> </li>
+           <li> <a href="#possibility">Open Ai</a> </li>
+           <li> <a href="#blog">Case Studies</a> </li>
+           <li> <a href="#feature">Library</a> </li>
        </ul>
        <div className='sign-div'>
            <h3>Sign in</h3>
@@ -33,11 +33,11 @@ const Navbar = () => {
            {menu && (
                <div className='links-sign-mobile scale-up-center' >
                    <ul className='nav-links-mobile'>
-           <li> <a href="#">Home</a> </li>
-           <li> <a href="#wgpt3">What is GPT3?</a> </li>
-           <li> <a href="#">Open Ai</a> </li>
+           <li> <a href="#hero">Home</a> </li>
+           <li> <a href="#gpt">What is GPT3?</a> </li>
+           <li> <a href="#cta">Open Ai</a> </li>
            <li> <a href="#blog">Case Studies</a> </li>
-           <li> <a href="#">Library</a> </li>
+           <li> <a href="#feature">Library</a> </li>
        </ul>
        <div className='sign-div-mobile'>
            <h3>Sign in</h3>

@@ -10,7 +10,7 @@ const Featuresata=[
 ]
 const Features = () => {
   return (
-    <div className='features-section'>
+    <div className='features-section' id='feature'>
         <div className='features-content'>
             <div className='features-content-left-side'>
                 <h1 className='gradient__text'>The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</h1>
